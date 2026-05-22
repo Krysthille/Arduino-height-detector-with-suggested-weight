@@ -8,24 +8,6 @@ The project aims to:
 2. To evaluate the accuracy of ultrasonic-based height measurement.
 3. To compute and display a suggested healthy weight range based on BMI.
 
-## System Components
-### Hardware Components
-- Arduino Uno R3
-- HC-SR04 Ultrasonic Sensor
-- LCD Display (16x2 or similar)
-- Buzzer (optional for alerts)
-- Power Supply (9V)
-- Jumper wires and breadboard
-
-### Software Requirements
-- Arduino IDE
-- C++ (Arduino programming language)
-
-#### Required Libraries
-Before uploading the code, you MUST install the following libraries in the Arduino IDE:
-- `LiquidCrystal` library (for standard LCD) OR `LiquidCrystal_I2C` (if using I2C module)
-- `NewPing` library (recommended for HC-SR04)
-
 ## Features
 - Real-time height measurement
 - Suggested weight computation using BMI-based reference
@@ -39,6 +21,24 @@ Before uploading the code, you MUST install the following libraries in the Ardui
 3. System calculates height and suggested weight range using BMI logic
 4. Results are displayed on the LCD screen
 5. Optional buzzer provides audible feedback
+
+## System Components
+### Hardware Components
+- Arduino Uno R3
+- HC-SR04 Ultrasonic Sensor
+- LCD Display (16x2 or similar)
+- Buzzer (optional for alerts)
+- Power Supply (9V)
+- Jumper wires and breadboard
+
+### Software Requirements
+- Arduino IDE
+- C++ (Arduino programming language)
+
+### Required Libraries
+Before uploading the code, you MUST install the following libraries in the Arduino IDE:
+- `LiquidCrystal` library (for standard LCD) OR `LiquidCrystal_I2C` (if using I2C module)
+- `NewPing` library (recommended for HC-SR04)
 
 ## Notes
 This project is developed for educational and prototype purposes only and is not intended for medical-grade diagnosis.
